@@ -17,11 +17,13 @@ project/
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 2. Start the Service
+
 ```bash
 uvicorn app:app --reload
 ```
@@ -29,16 +31,19 @@ uvicorn app:app --reload
 The service will be available at `http://127.0.0.1:8000`
 
 ### 3. Test the API
+
 - Interactive docs: `http://127.0.0.1:8000/docs`
 - Health check: `http://127.0.0.1:8000/health`
 - Generate endpoint: `POST http://127.0.0.1:8000/generate?prompt=Hello`
 
 ### 4. Run Monitoring (in separate terminal)
+
 ```bash
 python monitor.py
 ```
 
 ### 5. Run Load Test
+
 ```bash
 python load_test.py
 ```
@@ -66,6 +71,7 @@ See `INTERVIEW_GUIDE.md` for comprehensive explanations of every component, perf
 ## 💼 Interview Talking Points
 
 This project showcases the same SRE principles used in production AI systems:
+
 - Service reliability and health monitoring
 - Performance measurement and optimization
 - Capacity planning through load testing
@@ -74,4 +80,3 @@ This project showcases the same SRE principles used in production AI systems:
 ---
 
 **Built for Qualcomm SRE Interview Preparation**
-
