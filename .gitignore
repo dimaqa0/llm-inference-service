@@ -64,3 +64,6 @@ htmlcov/
 .dmypy.json
 dmypy.json
 
+# Interview preparation files
+MASTER_INTERVIEW_GUIDE.md
+
